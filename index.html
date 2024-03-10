@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nespresso Landing Page | 30 Days, 30 Projects</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section>
+        <div class="circle"></div>
+        <header>
+          <a href="#">
+            <img class="logo" src="images/nespresso-logo.png" alt="Nespresso Logo" />
+          </a>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">What's New</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </header>
+        <div class="content">
+          <div class="info">
+            <h2>It's not just Coffee<br />It's <span class="brand-name">Nespresso</span></h2>
+            <p>
+              Enjoy a cup of coffee with your friends and family. You can have a
+              good coffee at home, in the office, or at a party. Get your coffee
+              now and enjoy a drink with Nespresso.
+            </p>
+            <a href="#" title="Learn More" class="learn-more">Learn More</a>
+          </div>
+          <div class="image">
+            <img src="images/img1-nespresso.png" alt="Coffee Capsule" class="nespresso" />
+          </div>
+        </div>
+        <ul class="thumb">
+          <li>
+            <img src="images/thumb1-nespresso.png" alt="Coffee Thumbnail" onclick="slider('./images/img1-nespresso.png'); changeColor('#3f1a0c')"/>
+          </li>
+          <li>
+            <img src="images/thumb2-nespresso.png" alt="Coffee Thumbnail" onclick="slider('./images/img2-nespresso.png'); changeColor('#003F7D')"/>
+          </li>
+          <li>
+            <img src="images/thumb3-nespresso.png" alt="Coffee Thumbnail" onclick="slider('./images/img3-nespresso.png'); changeColor('#002109')"/>
+          </li>
+        </ul>
+        <ul class = "social">
+          <li><a href="#"><img src="images/facebook.png" alt="Facebook" /></a></li>
+          <li><a href="#"><img src="images/twitter.png" alt="Twitter" /></a></li>
+          <li><a href="#"><img src="images/instagram.png" alt="Instagram" /></a></li>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
